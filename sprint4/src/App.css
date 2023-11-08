@@ -1,42 +1,64 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+
+nav{
+  display: flex; 
+  width: 6vw;
+  flex-direction: column;
+  columns: 1;
+  justify-content: center; align-items: center;
+  background-color: #04acec;
+  
+  & a{color: white; font-size: 1.5rem; padding: 15px;}
+}
+main div img{
+  height: 140px;
+}
+main div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; height: 100%;
+}
+
+main div p{
+  width: 120vh;
+  font-size: 20px;
+  text-align: center;
+}
+main .bto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+  width: 150vh;
+}
+main button{
+  width: 60vh;
+  background-color: rgb(168, 168, 168);
+}
+main .bt{
+  width: 20vh;
+}
+
+footer{
+  display: flex; width: 100%; justify-content: center;
+  align-items: center; height: 10vh;
+  background-color: rgb(255, 255, 255);
+  margin-top: 10%;
+}
+
+.fotosBike{
+  height: 50vh; 
+  width: 80vh;
+  margin-top: 4%;
+}
+
+h1{
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.nomeIntegrante p{
+  font-size: 20px;
+  text-align: center;
 }
