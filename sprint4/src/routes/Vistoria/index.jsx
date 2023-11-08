@@ -1,4 +1,6 @@
 
+
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import BikeFrente from '../../assets/images/bikeFrente.png'
 import BikeDireito from '../../assets/images/bikeDireito.png'
@@ -102,10 +104,10 @@ export default function Vistoria() {
         ))}
       </div>
       <div>
-        <button class='foto' onClick={() => mostrarDiv(divToShow)}>Tirar foto</button>
-        <div class="bto">
-        <button class='bt' onClick={voltar}>Voltar</button>
-        <button class='bt' onClick={avancar}>Avançar</button>
+        <button className='foto' onClick={() => mostrarDiv(divToShow)}>Tirar foto</button>
+        <div className="bto">
+        <button className='bt' onClick={voltar}>Voltar</button>
+        <button className='bt' onClick={avancar}>Avançar</button>
         </div>
       </div>
       
