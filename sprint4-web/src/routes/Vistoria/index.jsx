@@ -67,12 +67,12 @@ export default function Vistoria() {
         <>
           <img src={Nserie} alt="nota fiscal" className='fotosBike' />
           <p>
-            <strong>Tire uma foto don numero de serie da sua bike</strong>
+            <strong>Tire uma foto do numero de serie da sua bike</strong>
           </p>
         </>
       ),
     },
-  ];
+  ]
 
   const currentIndex = divs.findIndex((item) => item.id === divToShow);
 
