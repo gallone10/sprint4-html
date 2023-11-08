@@ -13,7 +13,7 @@ export default function Integrantes(){
                 <p>Leonardo Scotti - RM550769</p>
                 <p>Mariana Albano - RM551154</p>
                 <p>Vitor Kubica - RM98903</p>
-                <p><a href="https://github.com/leocscotti/challenge-3-web" target='_blank'>Link para o repositório</a></p>
+                <p><a href="https://github.com/gallone10/sprint4-html" target='_blank' rel="noreferrer">Link para o repositório</a></p>
             </div>
             
         </main>

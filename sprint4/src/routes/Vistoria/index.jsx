@@ -5,7 +5,6 @@ import BikeDireito from '../../assets/images/bikeDireito.png'
 import BikeCompleta from '../../assets/images/bikeCompleta.png'
 import Pedivela from '../../assets/images/pedivela1.png';
 import Nserie from '../../assets/images/numero-series.png';
-import NotaFiscal from '../../assets/images/nota-fiscal.png';
 
 export default function Vistoria() {
   const [divToShow, setDivToShow] = useState('bikeCompleta');
@@ -60,17 +59,7 @@ export default function Vistoria() {
         </>
       ),
     },
-    {
-      id: 'notaFiscal',
-      content: (
-        <>
-          <img src={NotaFiscal} alt="nota fiscal" className='fotosBike' />
-          <p>
-            <strong>Tire uma foto completa da nota fiscal da sua bike</strong>
-          </p>
-        </>
-      ),
-    },{
+      {
       id: 'numeroDeSerie',
       content: (
         <>
