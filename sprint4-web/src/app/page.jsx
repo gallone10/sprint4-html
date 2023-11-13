@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import LogoPorto from '../assets/images/logoporto.png'
+import Menu from './components/menu.jsx'
  
 export default function Home(){
  
     return(
         <main>
             <div>
+                <Menu></Menu>
                 <Image src={LogoPorto} alt="LogoPorto" className='LogoPorto'/>
                 <h1>Quem somos?</h1>
                 <p>A porto é mais que uma seguradora: é um ecossistema com todas as soluções para transformar sonhos em realidades diárias.</p>
