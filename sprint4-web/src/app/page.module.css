@@ -7,6 +7,15 @@
   min-height: 100vh;
 }
 
+nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #04acec;
+  justify-content: space-around;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
