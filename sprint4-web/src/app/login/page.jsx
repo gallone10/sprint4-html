@@ -4,6 +4,13 @@ import Menu from './components/menu.jsx'
 import { useState } from 'react'
  
 export default function Home(){
+    const[usuario, setUsuario] = useState({
+        info:'login',
+        email:'',
+        senha:'',
+        nome:'',
+        cpf:''
+    })
     
     return(
         <main>
