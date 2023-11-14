@@ -5,7 +5,13 @@ import { useState } from 'react'
 import roberto from '../vistoria'
  
 export default function Home(){
-
+    const[usuario, setUsuario] = useState({
+        info:'login',
+        email:'',
+        senha:'',
+        nome:'',
+        cpf:''
+    })
     return(
         <main>
             <div>
